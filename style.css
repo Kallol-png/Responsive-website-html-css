@@ -364,6 +364,34 @@ form p{
     line-height: 1.5;
     letter-spacing: 0.1em;
 }
+/* Seventh section or take care section code start here */
+#seventh-section{
+    padding: 100px 0;
+}
+#take-care-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-take-care-imgbox{
+    width: 100%;
+}
+.single-take-care-imgbox img{
+    width: 100%;
+}
+.single-take-care h3{
+    font-size: 30px;
+}
+.single-take-care p{
+    margin: 20px 0;
+}
+.single-take-care ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+}
 
 /* first section & second section of media query code start */
 @media only screen and (max-width:688px){
@@ -431,6 +459,15 @@ form p{
     .first-single-match{
         text-align: center;
     }
+    /* Seventh section or take care section code start here */
+    #take-care-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+}
+.single-take-care{
+    margin-bottom: 70px;
+}
 }
 @media only screen and (min-width:689px) and (max-width:1099px){
     /* service section code start here */
@@ -492,5 +529,14 @@ form p{
         margin-left: 70px;
         margin-right: 70px;
     }
-}
+     /* Seventh section or take care section code start here */
+     #take-care-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+      .single-take-care{
+       margin-bottom: 70px;
+    }
+    }
 
