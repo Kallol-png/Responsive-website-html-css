@@ -597,5 +597,10 @@ footer{
       .single-take-care{
        margin-bottom: 70px;
     }
+    /* Footer section code start here */
+#footer-parent{
+    margin-left: 70px;
+    margin-right: 70px;
+}
     }
 
